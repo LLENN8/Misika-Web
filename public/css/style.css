@@ -622,14 +622,6 @@ video {
   z-index: 10;
 }
 
-.m-auto {
-  margin: auto;
-}
-
-.m-10 {
-  margin: 2.5rem;
-}
-
 .m-20 {
   margin: 5rem;
 }
@@ -661,6 +653,26 @@ video {
   margin-top: 1rem;
 }
 
+.mt-\[160px\] {
+  margin-top: 160px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-\[200px\] {
+  margin-top: 200px;
+}
+
+.mt-\[300px\] {
+  margin-top: 300px;
+}
+
 .block {
   display: block;
 }
@@ -677,48 +689,20 @@ video {
   height: 1rem;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.w-24 {
-  width: 6rem;
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-4 {
   width: 1rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.w-\[500px\] {
-  width: 500px;
-}
-
-.w-\[600px\] {
-  width: 600px;
-}
-
-.w-\[700px\] {
-  width: 700px;
-}
-
-.w-\[800px\] {
-  width: 800px;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
 .w-48 {
   width: 12rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[250px\] {
@@ -733,21 +717,67 @@ video {
   transform-origin: top left;
 }
 
+@keyframes typing {
+  0% {
+    width: 0%;
+    visibility: hidden;
+  }
+
+  100% {
+    width: 40%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+
+  100% {
+    border-color: white;
+  }
+}
+
+.animate-typing {
+  animation: typing 2s steps(25) infinite alternate, blink .7s infinite;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.border-r-4 {
+  border-right-width: 4px;
 }
 
 .border-gray-500 {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+
+.border-r-entah {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(0 90 205 / var(--tw-border-opacity));
 }
 
 .bg-biruMuda {
@@ -793,17 +823,17 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.text-center {
-  text-align: center;
+.pr-5 {
+  padding-right: 1.25rem;
 }
 
 .font-Shantell {
   font-family: Shantell Sans;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-\[18px\] {
@@ -825,12 +855,18 @@ video {
   line-height: 1.25rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
-.font-semibold {
-  font-weight: 600;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .leading-relaxed {
