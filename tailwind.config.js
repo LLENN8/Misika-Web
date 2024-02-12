@@ -21,7 +21,7 @@ module.exports = {
             visibility: "hidden"
           },
           "100%": {
-            width: "100%"
+            width: "50%"
           }
         },
         blink: {
@@ -34,7 +34,7 @@ module.exports = {
         }
       },
       animation: {
-        typing: "typing 2s steps(25) infinite alternate, blink .7s infinite"
+        typing: "typing 2s steps(20) infinite alternate, blink .7s infinite"
       },
       
 
