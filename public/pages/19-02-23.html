@@ -17,36 +17,71 @@
 </head>
 
 <body class="bg-gray-100 font-Shantell">
+    <!-- Navbar -->
+    <nav class="bg-biruMuda bg-opacity-70 absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="../index.html" class="font-bold text-lg text-entah block py-6">Misa Misaka</a>
+                </div>
 
-    <div class="container mx-auto py-8">
-        <div class="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8">
-            <h1 class="text-4xl font-bold mb-4">Judul Tulisan Anda</h1>
-            <div class="flex items-center justify-between mb-4">
-                <p class="text-gray-600">By <span class="font-semibold">Misa</span></p>
-                <p class="text-gray-600">Tanggal: <span class="font-semibold">19 Februari 2024</span></p>
+                <div class="flex items-center px-4 ">
+                    <button id="btnNav" name="btnNav" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="btnNavLine transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="btnNavLine transition duration-300 ease-in-out"></span>
+                        <span class="btnNavLine transition duration-300 ease-in-out origin-top-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full
+                lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="../index.html"
+                                    class="text-base text-entah py-2 mx-8 flex group-hover:text-secondary">Home</a>
+                            </li>
+
+                            <li class="group">
+                                <a href="main_blog.html"
+                                    class="text-base text-entah py-2 mx-8 flex group-hover:text-secondary">Blog</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <img src="gambar.jpg" alt="Gambar Ilustrasi" class="mb-6 rounded-lg">
-            <p class="text-lg leading-relaxed mb-6">
-                Tulis teks Anda di sini. Anda dapat menambahkan paragraf, subjudul, daftar, gambar, dan konten lainnya sesuai kebutuhan.
-            </p>
-            <p class="text-lg leading-relaxed mb-6">
-                Contoh subjudul:
-            </p>
-            <p class="text-lg leading-relaxed mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <h2 class="text-3xl font-bold mb-4">Subjudul Tulisan Anda</h2>
-            <p class="text-lg leading-relaxed mb-6">
-                Tulis konten Anda di sini. Anda dapat menambahkan subjudul, paragraf, dan elemen lain sesuai kebutuhan.
-            </p>
-            <h2 class="text-3xl font-bold mb-4">Tulisan Lainnya</h2>
-            <p class="text-lg leading-relaxed mb-6">
-                Anda dapat menulis tulisan lainnya di sini. Gunakan template ini sebagai panduan untuk menulis konten blog Anda.
-            </p>
         </div>
+    </nav>
+    <div class=" mx-auto S p-8 py-[150px]">
+        <h1 class="text-4xl font-bold mb-4">Judul Tulisan Anda</h1>
+        <div class="flex items-center justify-between mb-4">
+            <p class="text-gray-600">By <span class="font-semibold">Misa</span></p>
+            <p class="text-gray-600">Tanggal: <span class="font-semibold">19 Februari 2024</span></p>
+        </div>
+        <img src="gambar.jpg" alt="Gambar Ilustrasi" class="mb-6 rounded-lg">
+        <p class="text-lg leading-relaxed mb-6">
+            Tulis teks Anda di sini. Anda dapat menambahkan paragraf, subjudul, daftar, gambar, dan konten lainnya
+            sesuai kebutuhan.
+        </p>
+        <p class="text-lg leading-relaxed mb-6">
+            Contoh subjudul:
+        </p>
+        <p class="text-lg leading-relaxed mb-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+        </p>
+        <h2 class="text-3xl font-bold mb-4">Subjudul Tulisan Anda</h2>
+        <p class="text-lg leading-relaxed mb-6">
+            Tulis konten Anda di sini. Anda dapat menambahkan subjudul, paragraf, dan elemen lain sesuai kebutuhan.
+        </p>
+        <h2 class="text-3xl font-bold mb-4">Tulisan Lainnya</h2>
+        <p class="text-lg leading-relaxed mb-6">
+            Anda dapat menulis tulisan lainnya di sini. Gunakan template ini sebagai panduan untuk menulis konten blog
+            Anda.
+        </p>
     </div>
-    
-    
+
+
+
 
     <footer>
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">

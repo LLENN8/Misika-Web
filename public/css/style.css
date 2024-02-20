@@ -721,6 +721,10 @@ video {
   max-width: 1280px;
 }
 
+.max-w-2xl {
+  max-width: 42rem;
+}
+
 .origin-top-left {
   transform-origin: top left;
 }
@@ -893,6 +897,21 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-\[200ox\] {
+  padding-top: 200ox;
+  padding-bottom: 200ox;
+}
+
+.py-\[200px\] {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.py-\[150px\] {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .text-center {
